@@ -26,43 +26,43 @@
         "https://*.hyperiondev.cogrammar.com/reviewer/student/reviews/*"
       ],
       "css": [
-        "style.css",
-        "dashboard.css",
-        "loaders.css",
-        "feedbackFields.css",
-        "scoreBoard.css",
-        "moreOptions.css",
-        "MentorRubrick.css",
-        "reviewed-reviews.css",
-        "scrollToTop.css"
+        "css/style.css",
+        "css/dashboard.css",
+        "css/loaders.css",
+        "css/feedbackFields.css",
+        "css/scoreBoard.css",
+        "css/moreOptions.css",
+        "css/MentorRubrick.css",
+        "css/reviewed-reviews.css",
+        "css/scrollToTop.css"
       ],
       "js": [
-        "Dropbox-sdk.min.js",
-        "gsap.min.js",
-        "content.js",
-        "moreOption.js",
-        "feedbackFields.js",
-        "dashboardScripts.js",
-        "studentReviewPage.js",
-        "reviewed_reviews.js",
-        "scrollToResubTask.js",
-        "MentorRubrick.js",
-        "hide-mouse.js",
-        "autoSearch.js",
-        "scrollToTop.js"
+        "scripts/Dropbox-sdk.min.js",
+        "scripts/gsap.min.js",
+        "scripts/content.js",
+        "scripts/moreOption.js",
+        "scripts/feedbackFields.js",
+        "scripts/dashboardScripts.js",
+        "scripts/studentReviewPage.js",
+        "scripts/reviewed_reviews.js",
+        "scripts/scrollToResubTask.js",
+        "scripts/MentorRubrick.js",
+        "scripts/hide-mouse.js",
+        "scripts/autoSearch.js",
+        "scripts/scrollToTop.js"
       ]
     }
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "scripts/background.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "html/popup.html"
   },
   "icons": {
-    "16": "icon16.png",
-    "32": "icon32.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   }
 }
