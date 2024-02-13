@@ -37,13 +37,12 @@
         "css/scrollToTop.css"
       ],
       "js": [
-        "scripts/Dropbox-sdk.min.js",
-        "scripts/gsap.min.js",
+        "scripts/SDKs/Dropbox-sdk.min.js",
+        "scripts/SDKs/gsap.min.js",
         "scripts/content.js",
         "scripts/moreOption.js",
         "scripts/feedbackFields.js",
-        "scripts/dashboardScripts.js",
-        "scripts/studentReviewPage.js",
+        "scripts/dashboardScripts.js",        
         "scripts/reviewed_reviews.js",
         "scripts/scrollToResubTask.js",
         "scripts/MentorRubrick.js",
